@@ -1,0 +1,19 @@
+.Search {
+  text-align: center;
+  & input {
+    height: 2rem;
+    width: calc(100% - 4rem);
+    box-shadow: 0 10px 35px rgba(0, 0, 0, 0.1);
+    -webkit-box-shadow: 0 10px 35px rgba(0, 0, 0, 0.1);
+    border: 0;
+    outline: none;
+    border-radius: 5px;
+    font-size: 0.8rem;
+    font-family: "archia";
+    color: #6c757d;
+    padding: 1rem 1rem 1rem 3rem;
+    background: #fff;
+    transition: all 0.2s ease-in-out;
+    margin-top: 2rem;
+  }
+}
